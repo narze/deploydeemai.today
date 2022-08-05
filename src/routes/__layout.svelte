@@ -4,6 +4,11 @@
 
 <main>
 	<slot />
+
+	<footer class="flex items-center text-lg gap-4 text-gray-600">
+		<a href="/api" target="_blank">API</a>
+		<a href="https://github.com/narze/deploydeemai.today" target="_blank">GitHub</a>
+	</footer>
 </main>
 
 <style>
