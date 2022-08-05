@@ -3,10 +3,10 @@
 </script>
 
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	import { getReasons } from '$lib/helper';
 	import { page } from '$app/stores';
-
-	import { onMount } from 'svelte';
 
 	const day = $page.url.searchParams.get('day');
 	const reasons = getReasons(day ? +day : undefined);
@@ -36,7 +36,7 @@
 <section on:click={random} class="select-none text-6xl font-sans text-center w-full h-full">
 	<h2 class="text-gray-600">Deploy ดีไหม?</h2>
 
-	<h1 class="w-full">{reason}</h1>
+	<h1 class="w-full animate-bounce">{reason}</h1>
 
 	<p>
 		กด <span class="border-2 border-gray-400 rounded-lg px-4 py-2">SPACE</span> หรือคลิก
