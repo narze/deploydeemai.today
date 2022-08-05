@@ -36,7 +36,9 @@
 <section on:click={random} class="select-none text-6xl font-sans text-center w-full h-full">
 	<h2 class="text-gray-600">Deploy ดีไหม?</h2>
 
-	<h1 class="w-full animate-bounce">{reason}</h1>
+	{#key reason}
+		<h1 class="w-full bounce">{reason}</h1>
+	{/key}
 
 	<p>
 		กด <span class="border-2 border-gray-400 rounded-lg px-4 py-2">SPACE</span> หรือคลิก
@@ -66,5 +68,21 @@
 	h1 {
 		font-size: 8rem;
 		@apply my-8;
+	}
+
+	@keyframes bounce-once {
+		0%,
+		100% {
+			transform: translateY(0%);
+			animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+		}
+		50% {
+			transform: translateY(-25%);
+			animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+		}
+	}
+
+	.bounce {
+		animation: bounce-once 0.4s;
 	}
 </style>
