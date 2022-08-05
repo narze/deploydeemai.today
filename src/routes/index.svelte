@@ -4,10 +4,12 @@
 
 <script lang="ts">
 	import { getReasons } from '$lib/helper';
+	import { page } from '$app/stores';
 
 	import { onMount } from 'svelte';
 
-	const reasons = getReasons();
+	const day = $page.url.searchParams.get('day');
+	const reasons = getReasons(day ? +day : undefined);
 
 	let reason = '';
 

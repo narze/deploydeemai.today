@@ -1,3 +1,5 @@
+// Credits: https://github.com/baires/shouldideploy/blob/master/helpers/reasons.js
+
 import dayjs from 'dayjs';
 
 function getDayOfWeek(day: number): string {
@@ -30,12 +32,25 @@ export const REASONS_TO_NOT_DEPLOY = [
 	'ต่อหน้าฉันเธอทำอย่างนั้นได้อย่างไร? 🥺'
 ];
 
-export function getReasons() {
-	const day = dayjs().day();
+export const REASONS_FOR_WEEKEND = [
+	'เมาแล้ว กลับบ้านเถอะ',
+	'Deploy วันจันทร์แทนดีไหม',
+	'กินเบียร์ไหม?',
+	'การดื่มสุราทำให้สมรรถภาพเสื่อม',
+	'Deploy วันศุกร์ไปแล้วสินะ',
+	'บอกแล้วว่า Deploy วันจันทร์ก็ไม่เชื่อ'
+];
+
+export function getReasons(day = dayjs().day()) {
+	// const day = dayjs().day();
 	console.log({ day: getDayOfWeek(day) });
 
 	if (getDayOfWeek(day) === 'Friday') {
 		return REASONS_TO_NOT_DEPLOY;
+	}
+
+	if (['Saturday', 'Sunday'].includes(getDayOfWeek(day))) {
+		return REASONS_FOR_WEEKEND;
 	}
 	// if (time.isFriday13th()) {
 	//   return REASONS_FOR_FRIDAY_13TH
