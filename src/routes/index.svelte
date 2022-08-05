@@ -3,9 +3,11 @@
 </script>
 
 <script lang="ts">
+	import { getReasons } from '$lib/helper';
+
 	import { onMount } from 'svelte';
 
-	const reasons = ['จัดไป', 'ไม่ Deploy ตอนนี้แล้วจะ Deploy ตอนไหน', 'กดเลย'];
+	const reasons = getReasons();
 
 	let reason = '';
 

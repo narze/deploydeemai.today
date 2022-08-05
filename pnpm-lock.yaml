@@ -11,6 +11,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.27.0
   autoprefixer: ^10.4.7
   cookie: ^0.4.1
+  dayjs: ^1.11.4
   eslint: ^8.16.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^4.0.0
@@ -39,6 +40,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.32.0_43a51d9e2446a740dea4259743d3ab3e
   '@typescript-eslint/parser': 5.32.0_eslint@8.21.0+typescript@4.7.4
   autoprefixer: 10.4.8_postcss@8.4.14
+  dayjs: 1.11.4
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0_eslint@8.21.0
   eslint-plugin-svelte3: 4.0.0_eslint@8.21.0+svelte@3.49.0
@@ -692,6 +694,10 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /dayjs/1.11.4:
+    resolution: {integrity: sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==}
     dev: true
 
   /debug/4.3.4:
