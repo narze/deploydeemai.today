@@ -52,4 +52,19 @@
 		flex: 1;
 		gap: 4rem;
 	}
+
+	h2 {
+		font-size: 5rem;
+		@apply text-gray-500;
+	}
+
+	p {
+		font-size: 3rem;
+		@apply text-gray-500;
+	}
+
+	h1 {
+		font-size: 8rem;
+		@apply my-8;
+	}
 </style>
