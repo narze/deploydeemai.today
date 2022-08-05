@@ -33,15 +33,15 @@
 	<meta name="description" content="Deploy ดีไหม?" />
 </svelte:head>
 
-<section on:click={random} class="select-none text-6xl font-sans text-center w-full h-full">
+<section on:click={random} class="select-none text-3xl font-sans text-center w-full h-full">
 	<h2 class="text-gray-600">Deploy ดีไหม?</h2>
 
 	{#key reason}
-		<h1 class="w-full bounce">{reason}</h1>
+		<h1 class="w-full bounce font-bold">{reason}</h1>
 	{/key}
 
 	<p>
-		กด <span class="border-2 border-gray-400 rounded-lg px-4 py-2">SPACE</span> หรือคลิก
+		กด <span class="border-2 border-gray-400 rounded-lg px-4 py-2 mx-2">SPACE</span> หรือคลิก
 	</p>
 </section>
 
@@ -52,24 +52,19 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
-		gap: 4rem;
+		@apply gap-4 md:gap-8;
 	}
 
 	h2 {
-		font-size: 5rem;
-		@apply text-gray-500;
+		@apply text-gray-500 text-xl md:text-2xl;
 	}
 
 	p {
-		font-size: 3rem;
-		@apply text-gray-500;
+		@apply text-gray-500 text-xl md:text-2xl;
 	}
 
 	h1 {
-		font-size: 8rem;
-		line-height: 10rem;
-		letter-spacing: 0.3rem;
-		@apply my-8;
+		@apply px-4 my-8 tracking-wider text-3xl md:text-6xl;
 	}
 
 	@keyframes bounce-once {
