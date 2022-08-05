@@ -49,6 +49,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'รับผิดชอบเองนะ',
 	'อยู่ดีไม่ว่าดี',
 	'อย่าทำแบบนี้เลย แบบนี้เลย',
+	'ไม่รู้ ไม่รู้ ไม่รู้',
 ];
 
 export const FRIDAY_REASONS = [
