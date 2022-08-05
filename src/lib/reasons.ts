@@ -50,6 +50,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'อยู่ดีไม่ว่าดี',
 	'อย่าทำแบบนี้เลย แบบนี้เลย',
 	'ไม่รู้ ไม่รู้ ไม่รู้',
+	'วันนี้ดวงกาลกิณี ไม่ควร Deploy',
+	'วันหลังเหอะ',
 ];
 
 export const FRIDAY_REASONS = [
