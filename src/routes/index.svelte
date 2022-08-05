@@ -67,6 +67,8 @@
 
 	h1 {
 		font-size: 8rem;
+		line-height: 10rem;
+		letter-spacing: 0.3rem;
 		@apply my-8;
 	}
 
