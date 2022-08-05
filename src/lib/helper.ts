@@ -2,7 +2,7 @@
 
 import dayjs from 'dayjs';
 
-import { REASONS_TO_NOT_DEPLOY, REASONS_FOR_WEEKEND, REASONS_TO_DEPLOY } from './reasons';
+import { FRIDAY_REASONS, WEEKEND_REASONS, REASONS_TO_DEPLOY } from './reasons';
 
 function getDayOfWeek(day: number): string {
 	return (
@@ -22,11 +22,11 @@ export function getReasons(day = dayjs().day()) {
 	const dayOfWeek = getDayOfWeek(day);
 
 	if (dayOfWeek === 'Friday') {
-		return REASONS_TO_NOT_DEPLOY;
+		return FRIDAY_REASONS;
 	}
 
 	if (['Saturday', 'Sunday'].includes(dayOfWeek)) {
-		return REASONS_FOR_WEEKEND;
+		return WEEKEND_REASONS;
 	}
 
 	// if (time.isFriday13th()) {
@@ -37,9 +37,6 @@ export function getReasons(day = dayjs().day()) {
 	//   return REASONS_FOR_FRIDAY_AFTERNOON
 	// }
 
-	// if (time.isFriday()) {
-	//   return REASONS_TO_NOT_DEPLOY
-	// }
 	// if (time.isThursdayAfternoon()) {
 	//   return REASONS_FOR_THURSDAY_AFTERNOON
 	// }
@@ -47,7 +44,7 @@ export function getReasons(day = dayjs().day()) {
 	//   return REASONS_FOR_AFTERNOON
 	// }
 	// if (time.isWeekend()) {
-	//   return REASONS_FOR_WEEKEND
+	//   return WEEKEND_REASONS
 	// }
 
 	return REASONS_TO_DEPLOY;
