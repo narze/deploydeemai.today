@@ -16,6 +16,27 @@ function getDayOfWeek(day: number): string {
 	);
 }
 
+export const REASONS_TO_DEPLOY = [
+	'กดไปสิ รออะไร',
+	'คุณได้สิทธิ์นั้นเดี๋ยวนี้',
+	'จัดไปเลยเพื่อน',
+	'ลุย',
+	'กดเลย ผมรับผิดชอบเอง 🔥',
+	'ไป ไป ไป ไป!',
+	'โอกาสแบบนี้ไม่ได้มีบ๊อยบ่อย',
+	'ส่งฮอลคูลไป ❄️',
+	'ปล่อยไปตามหัวใจ',
+	'เอาเลย',
+	'จัดไปแบบเบิ้มๆ',
+	'โอเค',
+	'ไม่มีไรหรอก แก้นิดเดียว',
+	'พังก็แค่แก้ เรื่องจิ๊บๆ',
+	'ไปเทสต์บน Production กันเถอะ',
+	'LGTM',
+	'ใส่เต็มข้อ ล่อเต็มแข้ง',
+	'👍👍👍'
+];
+
 export const REASONS_TO_NOT_DEPLOY = [
 	'ไม่แนะนำให้ Deploy วันนี้',
 	'ไม่ล่ะ วันนี้วันศุกร์นะ',
@@ -42,14 +63,13 @@ export const REASONS_FOR_WEEKEND = [
 ];
 
 export function getReasons(day = dayjs().day()) {
-	// const day = dayjs().day();
-	console.log({ day: getDayOfWeek(day) });
+	const dayOfWeek = getDayOfWeek(day);
 
-	if (getDayOfWeek(day) === 'Friday') {
+	if (dayOfWeek === 'Friday') {
 		return REASONS_TO_NOT_DEPLOY;
 	}
 
-	if (['Saturday', 'Sunday'].includes(getDayOfWeek(day))) {
+	if (['Saturday', 'Sunday'].includes(dayOfWeek)) {
 		return REASONS_FOR_WEEKEND;
 	}
 	// if (time.isFriday13th()) {
@@ -72,6 +92,6 @@ export function getReasons(day = dayjs().day()) {
 	// if (time.isWeekend()) {
 	//   return REASONS_FOR_WEEKEND
 	// }
-	// return REASONS_TO_DEPLOY
-	return ['OK'];
+
+	return REASONS_TO_DEPLOY;
 }
