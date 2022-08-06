@@ -52,6 +52,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'ไม่รู้ ไม่รู้ ไม่รู้',
 	'วันนี้ดวงกาลกิณี ไม่ควร Deploy',
 	'วันหลังเหอะ',
+	'Deploy วันนี้ = บาป',
 ];
 
 export const FRIDAY_REASONS = [
@@ -59,6 +60,7 @@ export const FRIDAY_REASONS = [
 	'ไม่ล่ะ วันนี้วันศุกร์นะ',
 	'Deploy วันจันทร์แทนดีไหม?',
 	'Deploy วันจันทร์สิ มีเวลาแก้ถึงวันศุกร์นู่น',
+	'Deploy วันศุกร์ = บาป',
 ];
 
 export const WEEKEND_REASONS = [
