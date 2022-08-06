@@ -1,6 +1,6 @@
 # [Deploy ดีไหม?](https://deploydeemai.today)
 
-แรงบัลดาลใจจากเว็บ <https://shouldideploy.today>
+แรงบันดาลใจจากเว็บ <https://shouldideploy.today>
 
 ช่วย Contribute ได้ที่ไฟล์ [reasons.ts](./src/lib/reasons.ts)
 
