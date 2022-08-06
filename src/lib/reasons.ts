@@ -53,6 +53,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'วันนี้ดวงกาลกิณี ไม่ควร Deploy',
 	'วันหลังเหอะ',
 	'Deploy วันนี้ = บาป',
+	'อย่าหาทำ',
 ];
 
 export const FRIDAY_REASONS = [
