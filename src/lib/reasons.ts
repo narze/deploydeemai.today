@@ -22,6 +22,8 @@ export const REASONS_TO_DEPLOY = [
 	'สุดท้ายก็ต้อง Deploy อยู่ดี ไม่ต้องผัดหรอก',
 	'เหนื่อยอีกแปบเดียว ถ้าเสร็จก็สบายแล้ว',
 	'ไม่มีเหตุผลที่ไม่ต้อง Deploy หนิ',
+	'ได้ชื่อว่า Developer ต้องเคย Nuke Prod ซักครั้งนึง',
+	'ทำ OT ก็ไม่เลวนะ',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
