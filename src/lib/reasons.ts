@@ -19,6 +19,8 @@ export const REASONS_TO_DEPLOY = [
 	'👍👍👍',
 	'เห็นควรด้วย',
 	'คนเราเกิดหนเดียว ตายหนเดียว',
+	'ได้ชื่อว่า Developer ต้องเคย Nuke Prod ซักครั้งนึง',
+	'ทำ OT ก็ไม่เลวนะ'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
