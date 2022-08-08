@@ -10,7 +10,7 @@ export const GET: RequestHandler = async (event) => {
 
 	return {
 		body: {
-			message: reason
-		}
+			message: reason,
+		},
 	};
 };
