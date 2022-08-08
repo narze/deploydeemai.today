@@ -19,6 +19,9 @@ export const REASONS_TO_DEPLOY = [
 	'👍👍👍',
 	'เห็นควรด้วย',
 	'คนเราเกิดหนเดียว ตายหนเดียว',
+	'สุดท้ายก็ต้อง Deploy อยู่ดี ไม่ต้องผัดหรอก',
+	'เหนื่อยอีกแปบเดียว ถ้าเสร็จก็สบายแล้ว',
+	'ไม่มีเหตุผลที่ไม่ต้อง Deploy หนิ',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -54,6 +57,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'วันหลังเหอะ',
 	'Deploy วันนี้ = บาป',
 	'อย่าหาทำ',
+	'จะรีบไปไหน',
+	'เช็คให้ดีอีกรอบไหม',
 ];
 
 export const FRIDAY_REASONS = [
