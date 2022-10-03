@@ -22,11 +22,17 @@ export function getReasons(day = dayjs().day()) {
 	const dayOfWeek = getDayOfWeek(day);
 
 	if (dayOfWeek === 'Friday') {
-		return FRIDAY_REASONS;
+		return {
+			reasons: FRIDAY_REASONS,
+			deploydeemai: false,
+		};
 	}
 
 	if (['Saturday', 'Sunday'].includes(dayOfWeek)) {
-		return WEEKEND_REASONS;
+		return {
+			reasons: WEEKEND_REASONS,
+			deploydeemai: false,
+		};
 	}
 
 	// if (time.isFriday13th()) {
@@ -47,5 +53,8 @@ export function getReasons(day = dayjs().day()) {
 	//   return WEEKEND_REASONS
 	// }
 
-	return REASONS_TO_DEPLOY;
+	return {
+		reasons: REASONS_TO_DEPLOY,
+		deploydeemai: true,
+	};
 }

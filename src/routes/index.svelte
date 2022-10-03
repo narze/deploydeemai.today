@@ -9,7 +9,7 @@
 	import { page } from '$app/stores';
 
 	const day = $page.url.searchParams.get('day');
-	const reasons = getReasons(day ? +day : undefined);
+	const { reasons } = getReasons(day ? +day : undefined);
 
 	let reason = '';
 
