@@ -3,6 +3,7 @@
 import dayjs from 'dayjs';
 
 import { FRIDAY_REASONS, WEEKEND_REASONS, REASONS_TO_DEPLOY } from './reasons';
+import { TIMEZONES } from './timezones';
 
 function getDayOfWeek(day: number): string {
 	return (
@@ -57,4 +58,9 @@ export function getReasons(day = dayjs().day()) {
 		reasons: REASONS_TO_DEPLOY,
 		deploydeemai: true,
 	};
+}
+
+
+export function verifyTimezone(tz: string): boolean {
+	return TIMEZONES.includes(tz);
 }
