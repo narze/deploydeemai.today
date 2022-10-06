@@ -25,6 +25,7 @@ export const REASONS_TO_DEPLOY = [
 	'ได้ชื่อว่า Developer ต้องเคย Nuke Prod ซักครั้งนึง',
 	'ทำ OT ก็ไม่เลวนะ',
 	
+	
 	'เอาขึ้นไปก่อนละกัน',
 ];
 
