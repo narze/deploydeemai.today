@@ -72,7 +72,7 @@ export const FRIDAY_REASONS = [
 	'Deploy วันจันทร์แทนดีไหม?',
 	'Deploy วันจันทร์สิ มีเวลาแก้ถึงวันศุกร์นู่น',
 	'Deploy วันศุกร์ = บาป',
-	'สาธุบุญศุกร์สุขสันต์'
+	'Deploy ศุกร์ ได้สนุกไปถึงวันจันทร์'
 ];
 
 export const WEEKEND_REASONS = [
