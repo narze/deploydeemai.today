@@ -25,6 +25,7 @@ export const REASONS_TO_DEPLOY = [
 	'ได้ชื่อว่า Developer ต้องเคย Nuke Prod ซักครั้งนึง',
 	'ทำ OT ก็ไม่เลวนะ',
 	'คนจริงสิงห์ Production',
+	'ปฎิเสธได้ด้วยหรอ Business จะให้เอาขึ้น',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
