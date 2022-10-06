@@ -24,9 +24,9 @@ export const REASONS_TO_DEPLOY = [
 	'ไม่มีเหตุผลที่ไม่ต้อง Deploy หนิ',
 	'ได้ชื่อว่า Developer ต้องเคย Nuke Prod ซักครั้งนึง',
 	'ทำ OT ก็ไม่เลวนะ',
-	
-	
-	'เอาขึ้นไปก่อนละกัน',
+	'คนจริงสิงห์ Production',
+	'ปฎิเสธได้ด้วยหรอ Business จะให้เอาขึ้น',
+  'เอาขึ้นไปก่อนละกัน',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -64,8 +64,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'อย่าหาทำ',
 	'จะรีบไปไหน',
 	'เช็คให้ดีอีกรอบไหม',
-	
-	'ขออีกสักนิดเหอะว่ะ'
+	'เบาได้เบา',
+  'ขออีกสักนิดเหอะว่ะ'
 ];
 
 export const FRIDAY_REASONS = [
