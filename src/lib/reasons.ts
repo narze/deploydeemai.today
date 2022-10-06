@@ -26,6 +26,7 @@ export const REASONS_TO_DEPLOY = [
 	'ทำ OT ก็ไม่เลวนะ',
 	'คนจริงสิงห์ Production',
 	'ปฎิเสธได้ด้วยหรอ Business จะให้เอาขึ้น',
+  'เอาขึ้นไปก่อนละกัน',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -64,6 +65,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'จะรีบไปไหน',
 	'เช็คให้ดีอีกรอบไหม',
 	'เบาได้เบา',
+  'ขออีกสักนิดเหอะว่ะ'
 ];
 
 export const FRIDAY_REASONS = [
@@ -72,6 +74,7 @@ export const FRIDAY_REASONS = [
 	'Deploy วันจันทร์แทนดีไหม?',
 	'Deploy วันจันทร์สิ มีเวลาแก้ถึงวันศุกร์นู่น',
 	'Deploy วันศุกร์ = บาป',
+	'Deploy ศุกร์ ได้สนุกไปถึงวันจันทร์'
 ];
 
 export const WEEKEND_REASONS = [
