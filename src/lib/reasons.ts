@@ -28,6 +28,7 @@ export const REASONS_TO_DEPLOY = [
 	'ปฎิเสธได้ด้วยหรอ Business จะให้เอาขึ้น',
   	'เอาขึ้นไปก่อนละกัน',
 	'ได้้ฤกษ์แล้ว ลุยยยยยย',
+	'จัดไปเลยลูกพี่',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
