@@ -29,7 +29,8 @@ export const REASONS_TO_DEPLOY = [
   	'เอาขึ้นไปก่อนละกัน',
 	'ได้้ฤกษ์แล้ว ลุยยยยยย',
 	'จัดไปเลยลูกพี่',
-	'Prod ก็แค่ชื่อ Environment รอไรล่ะ ลุยย'
+	'Prod ก็แค่ชื่อ Environment รอไรล่ะ ลุยย',
+	'อย่าช้าไอ่น้อง!'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -70,7 +71,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'เบาได้เบา',
   	'ขออีกสักนิดเหอะว่ะ',
 	'ไม่ไหวอย่าฝืน',
-	'พระเครื่องไม่พร้อมรอเช่าใหม่ก่อนดีกว่าค่อย Deploy'
+	'พระเครื่องไม่พร้อมรอเช่าใหม่ก่อนดีกว่าค่อย Deploy',
+	'พักก๊อนนน'
 ];
 
 export const FRIDAY_REASONS = [
