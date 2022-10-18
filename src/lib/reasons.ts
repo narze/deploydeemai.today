@@ -98,6 +98,15 @@ export const FRIDAY_REASONS = [
 	'Deploy วันศุกร์บ้านบึ้ม',
 ];
 
+export const REASONS_FOR_FRIDAY_13TH = [
+	...COMMON_REASONS_TO_NOT_DEPLOY,
+	'ไม่ล่ะ วันนี้วันปล่อยผีนะ',
+	'เค้าไม่ให้ยุ่งริวสัมผัสได้',
+	'วันนี้ผมขอไม่ยุ่ง',
+	'ฤกษ์ไม่ดี ถอยก่อน',
+	'รู้สึกถึงพลังงานบางอย่าง',
+];
+
 export const WEEKEND_REASONS = [
 	...COMMON_REASONS_TO_NOT_DEPLOY,
 	'เมาแล้ว กลับบ้านเถอะ',
