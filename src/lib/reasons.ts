@@ -85,6 +85,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'พร้อมจะ Rollback กันมานานแล้วโย่ว',
 	'เทสเขียวหมดแล้วรึ???',
 	'คุณ deploy แล้วเจ๊งเป็นความผิดคุณ ดังนั้นรอคนอื่น deploy เหอะ',
+	'ใส่เสื้อสีมงคลแล้วรึยัง?',
 ];
 
 export const FRIDAY_REASONS = [
