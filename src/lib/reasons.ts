@@ -39,6 +39,7 @@ export const REASONS_TO_DEPLOY = [
 	'เอาเลย เทสบน prod เป็นเรื่องปกติ ประหยัดค่าเทสเตอร์ด้วย!',
 	'คนจริงเทสบน Production!',
 	'คำถามไม่ใช่ว่า ทำไม แต่เป็น ทำไมจะไม่ล่ะ',
+	'อย่ารอคอย ดอยพี Deploy เลยยย', 
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
