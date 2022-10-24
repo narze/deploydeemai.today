@@ -15,7 +15,7 @@ export const GET: RequestHandler = async (event) => {
 		body: {
 			message: reason,
 			deploydeemai,
-			timezone
+			timezone,
 		},
 	};
 };

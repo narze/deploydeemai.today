@@ -347,4 +347,4 @@ export const TIMEZONES = [
 	'Pacific/Tongatapu',
 	'Pacific/Wake',
 	'Pacific/Wallis',
-]
+];

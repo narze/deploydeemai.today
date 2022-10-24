@@ -60,7 +60,6 @@ export function getReasons(day = dayjs().day()) {
 	};
 }
 
-
 export function verifyTimezone(tz: string): boolean {
 	return TIMEZONES.includes(tz);
 }
