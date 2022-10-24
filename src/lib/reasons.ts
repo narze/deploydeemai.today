@@ -41,8 +41,15 @@ export const REASONS_TO_DEPLOY = [
 	'คำถามไม่ใช่ว่า ทำไม แต่เป็น ทำไมจะไม่ล่ะ',
 	'อย่ารอคอย ดอยพี Deploy เลยยย',
 	'รุ่นใหญ่ใจต้องนิ่ง',
-	'ผมเห็นว่าเราควร Deploy ไปเลย',];
-export const COMMON_REASONS_TO_NOT_DEPLOY = ['ยังอยากนอนอยู่ไหม?',
+	'ผมเห็นว่าเราควร Deploy ไปเลย'];
+  
+export const COMMON_REASONS_TO_NOT_DEPLOY = [
+  'ยังอยากนอนอยู่ไหม?',
+	'จัดไปดิ อย่างมากก็แค่ rollback',
+];
+
+export const COMMON_REASONS_TO_NOT_DEPLOY = [
+	'ยังอยากนอนอยู่ไหม?',
 	'ถามเพื่อนก่อน',
 	'อยากยิงยาวเรอะวันนี้?',
 	'บอกหัวหน้าว่าเจอบั๊ัก แล้วกลับบ้านเถอะ',
