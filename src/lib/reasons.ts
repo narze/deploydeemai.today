@@ -90,8 +90,9 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'เทสเขียวหมดแล้วรึ???',
 	'คุณ deploy แล้วเจ๊งเป็นความผิดคุณ ดังนั้นรอคนอื่น deploy เหอะ',
 	'ใส่เสื้อสีมงคลแล้วรึยัง?',
-	'มันดีนะ แต่พี่ว่า...',
-	'ช้าแต่ชัวร์ดีกว่านะวิ',
+  'มันดีนะ แต่พี่ว่า...',
+  'deploy เลย เคย deploy แล้ว',
+  'ช้าแต่ชัวร์ดีกว่านะวิ'
 ];
 
 export const FRIDAY_REASONS = [
@@ -105,6 +106,7 @@ export const FRIDAY_REASONS = [
 	'Deploy ศุกร์ ได้เปิดคอมถึงวันจันทร์เลยนะ',
 	'ร้านเหล้ารอท่านอยู้น้า',
 	'Deploy วันศุกร์บ้านบึ้ม',
+	'เราไม่ Deploy วันศุกร์นะ'
 ];
 
 export const REASONS_FOR_FRIDAY_13TH = [
