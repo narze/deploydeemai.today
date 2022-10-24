@@ -105,6 +105,7 @@ export const FRIDAY_REASONS = [
 	'Deploy ศุกร์ ได้เปิดคอมถึงวันจันทร์เลยนะ',
 	'ร้านเหล้ารอท่านอยู้น้า',
 	'Deploy วันศุกร์บ้านบึ้ม',
+	'เราไม่ Deploy วันศุกร์นะ'
 ];
 
 export const REASONS_FOR_FRIDAY_13TH = [
