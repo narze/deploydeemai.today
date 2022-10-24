@@ -90,7 +90,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'เทสเขียวหมดแล้วรึ???',
 	'คุณ deploy แล้วเจ๊งเป็นความผิดคุณ ดังนั้นรอคนอื่น deploy เหอะ',
 	'ใส่เสื้อสีมงคลแล้วรึยัง?',
-	'มันดีนะ แต่พี่ว่า...',
+  'มันดีนะ แต่พี่ว่า...',
+	'deploy เลย เคย deploy แล้ว'
 ];
 
 export const FRIDAY_REASONS = [
