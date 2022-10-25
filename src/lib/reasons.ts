@@ -43,6 +43,7 @@ export const REASONS_TO_DEPLOY = [
 	'รุ่นใหญ่ใจต้องนิ่ง',
 	'จัดไปดิ อย่างมากก็แค่ rollback',
 	'ถ้าเราไม่ทำแล้วใครจะทำ',
+	'อย่า! อย่าช้า! Deploy เลยยย',
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
