@@ -44,6 +44,7 @@ export const REASONS_TO_DEPLOY = [
 	'จัดไปดิ อย่างมากก็แค่ rollback',
 	'ถ้าเราไม่ทำแล้วใครจะทำ',
 	'อย่า! อย่าช้า! Deploy เลยยย',
+	'vi on productionnn'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
