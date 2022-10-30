@@ -45,7 +45,8 @@ export const REASONS_TO_DEPLOY = [
 	'ถ้าเราไม่ทำแล้วใครจะทำ',
 	'อย่า! อย่าช้า! Deploy เลยยย',
 	'vi on productionnn',
-        'เอาเลย ลูกค้าโอเค'
+    'เอาเลย ลูกค้าโอเค',
+	'เริ่มเลอ deploy เล้ย'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -99,6 +100,7 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'deploy เลย เคย deploy แล้ว',
 	'ช้าแต่ชัวร์ดีกว่านะวิ',
 	'พี่ว่าดี แต่พี่ว่า... อย่า deploy วันนี้',
+	'งานไม่ใหญ่แน่นะวิ'
 ];
 
 export const FRIDAY_REASONS = [
