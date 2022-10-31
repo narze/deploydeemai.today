@@ -101,7 +101,8 @@ export const COMMON_REASONS_TO_NOT_DEPLOY = [
 	'deploy เลย เคย deploy แล้ว',
 	'ช้าแต่ชัวร์ดีกว่านะวิ',
 	'พี่ว่าดี แต่พี่ว่า... อย่า deploy วันนี้',
-	'งานไม่ใหญ่แน่นะวิ'
+	'งานไม่ใหญ่แน่นะวิ',
+	'แตกแน่นอน'
 ];
 
 export const FRIDAY_REASONS = [
