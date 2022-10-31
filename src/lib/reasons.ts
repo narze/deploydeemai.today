@@ -47,7 +47,8 @@ export const REASONS_TO_DEPLOY = [
 	'vi on productionnn',
 	'เอาเลย ลูกค้าโอเค',
 	'เริ่มเลอ deploy เล้ย',
-	'พี่บนให้แล้วยังไงก็รอด!'
+	'พี่บนให้แล้วยังไงก็รอด!',
+	'Pipeline เขียวแล้ว! Deploy เลยยย'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
