@@ -45,8 +45,9 @@ export const REASONS_TO_DEPLOY = [
 	'ถ้าเราไม่ทำแล้วใครจะทำ',
 	'อย่า! อย่าช้า! Deploy เลยยย',
 	'vi on productionnn',
-    'เอาเลย ลูกค้าโอเค',
-	'เริ่มเลอ deploy เล้ย'
+	'เอาเลย ลูกค้าโอเค',
+	'เริ่มเลอ deploy เล้ย',
+	'พี่บนให้แล้วยังไงก็รอด!'
 ];
 
 export const COMMON_REASONS_TO_NOT_DEPLOY = [
@@ -115,6 +116,7 @@ export const FRIDAY_REASONS = [
 	'ร้านเหล้ารอท่านอยู้น้า',
 	'Deploy วันศุกร์บ้านบึ้ม',
 	'เราไม่ Deploy วันศุกร์นะ',
+	'ศุกร์กันเถอะเรา ดีพลอยทำไม?',
 ];
 
 export const REASONS_FOR_FRIDAY_13TH = [
