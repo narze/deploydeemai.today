@@ -119,7 +119,9 @@ export const FRIDAY_REASONS = [
 	'Deploy วันศุกร์บ้านบึ้ม',
 	'เราไม่ Deploy วันศุกร์นะ',
 	'ศุกร์กันเถอะเรา ดีพลอยทำไม?',
-	'Deploy วันศุกร์ ระวังจุกไม่รู้ตัว'
+	'Deploy วันศุกร์ ระวังจุกไม่รู้ตัว',
+	'อย่าไป Outing พร้อม Incident เลยครับ',
+	'ร้านที่จ้องไว้ตอนเย็น อาจจะกลายเป็น War Room นะครับ',
 ];
 
 export const REASONS_FOR_FRIDAY_13TH = [
