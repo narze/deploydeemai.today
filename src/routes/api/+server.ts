@@ -1,21 +1,20 @@
 import { getReasons, verifyTimezone } from '$lib/helper';
-import type { RequestHandler } from './__types';
+import { json } from '@sveltejs/kit';
+import type { RequestHandler } from './$types';
 
 // TODO: receive timezone params
 
-export const GET: RequestHandler = async (event) => {
-	const day = event.url.searchParams.get('day');
+export const GET: RequestHandler = ({ url }) => {
+	const day = url.searchParams.get('day');
 	const { reasons, deploydeemai } = getReasons(day ? +day : undefined);
 	const reason = reasons[Math.floor(Math.random() * reasons.length)];
 
-	const tz = event.url.searchParams.get('tz') || '';
+	const tz = url.searchParams.get('tz') || '';
 	const timezone = verifyTimezone(tz) ? tz : 'Asia/Bangkok';
 
-	return {
-		body: {
-			message: reason,
-			deploydeemai,
-			timezone,
-		},
-	};
+	return json({
+		message: reason,
+		deploydeemai,
+		timezone,
+	});
 };

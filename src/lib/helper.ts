@@ -19,7 +19,7 @@ function getDayOfWeek(day: number): string {
 	);
 }
 
-export function getReasons(day = dayjs().day()) {
+export function getReasons(day: number = dayjs().day()) {
 	const dayOfWeek = getDayOfWeek(day);
 
 	if (dayOfWeek === 'Friday') {
