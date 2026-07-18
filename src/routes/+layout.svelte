@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '@fontsource/fira-mono/index.css';
 	import '../app.css';
 </script>
 

@@ -1,7 +1,3 @@
-<script context="module" lang="ts">
-	// export const prerender = true;
-</script>
-
 <script lang="ts">
 	import { onMount } from 'svelte';
 
@@ -33,7 +29,13 @@
 	<meta name="description" content="Deploy ดีไหม?" />
 </svelte:head>
 
-<section on:click={random} class="select-none text-3xl font-sans text-center w-full h-full">
+<section
+	on:click={random}
+	on:keydown={(event) => event.key === 'Enter' && random()}
+	role="button"
+	tabindex="0"
+	class="select-none text-3xl font-sans text-center w-full h-full"
+>
 	<h2 class="text-gray-600">Deploy ดีไหม?</h2>
 
 	{#key reason}
@@ -46,6 +48,8 @@
 </section>
 
 <style lang="postcss">
+	@reference '../app.css';
+
 	section {
 		display: flex;
 		flex-direction: column;
